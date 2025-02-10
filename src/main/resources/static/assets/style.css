@@ -1,0 +1,182 @@
+/* for banner */
+.banner-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: black;
+  display: flex;
+  width: 100%;
+}
+
+.banner-header a {
+  color: #5afefe !important;
+  margin-left: 15px !important;
+  margin-right: 15px !important;
+  text-decoration: none !important;
+  font-family: fantasy !important;
+  font-size: 16px !important;
+}
+
+.banner-header table,
+.banner-header tr,
+.banner-header td {
+  border-left: 1px yellow solid !important;
+  border-right: 1px yellow solid !important;
+  border-collapse: collapse !important;
+  height: 100% !important;
+  padding: 8px !important;
+
+}
+
+.banner-dropdown-content {
+  display: block;
+}
+
+.banner-header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.banner-header li {
+  float: left;
+  border-right: 1px yellow solid !important;
+  border-left: 1px yellow solid !important;
+  border-collapse: collapse !important;
+  height: 100%;
+  align-content: center;
+}
+
+.banner-category {
+  height: 100%;
+  text-align: center;
+  align-content: center;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #445567;
+  min-width: 100px;
+  /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  padding: 12px 16px;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #3F34E7;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+.banner-header li:hover {
+
+  background-color: #17E161 !important;
+  cursor: pointer;
+}
+
+.page-top {
+  margin-top: 100px !important;
+}
+
+
+.center-div {
+  justify-content: center;
+  text-align: center;
+}
+
+/* for div to center  */
+
+.space {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+#all-card table,
+#all-card tr,
+#all-card th,
+#all-card td {
+  border: 1px solid #1324cf;
+  border-collapse: collapse;
+  padding: 8px;
+}
+
+#all-card {
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#card-table {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 5%;
+}
+
+#all-card th {
+  background-image: linear-gradient(45deg, #d25bff, #3030f5);
+}
+
+#all-card tr:nth-child(odd) {
+  background-color: #c9ecf4;
+}
+
+.action-butt {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.update-element {
+  display: none;
+}
+.save {
+  background-color: #2bea96;
+}
+.cancel {
+  background-color: #e64038;
+}
+
+.link-butt {
+  padding: 10px;
+  margin: 5px;
+  background-color: #f0f0f0;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+  
+  /* 3D effect additions */
+  box-shadow: 0 5px 0 #c0c0c0,
+              0 6px 6px rgba(0, 0, 0, 0.3);
+  transform: translateY(0);
+  transition: all 0.1s ease;
+  
+}
+
+.link-butt:hover {
+  transform: translateY(2px);
+  box-shadow: 0 3px 0 #c0c0c0,
+              0 4px 4px rgba(0, 0, 0, 0.2);
+  color: #0f9e6f;            
+}
+
+.link-butt:active {
+  transform: translateY(5px);
+  box-shadow: none;
+  background-color: #e0e0e0;
+}
