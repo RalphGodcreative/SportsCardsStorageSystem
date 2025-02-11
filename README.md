@@ -6,7 +6,7 @@ SportsCardsStorageSystem is a **Java-based web application** designed to help yo
 
 - **Card Management**: Add, update, and delete cards in your collection.
 - **Transaction Tracking**: Record purchases, sales, and trades of your sports cards.
-- **eBay Price Lookup**: Check the recent comps of the car on ebay with one click.
+- **eBay Price Lookup**: Check the recent comps of the cards on ebay with one click.
 - **User-Friendly Interface**: A clean and simple interface built using Thymeleaf for managing your sports card inventory.
 
 ## **Technologies Used**
