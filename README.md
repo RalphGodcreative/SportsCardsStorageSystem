@@ -17,6 +17,6 @@ SportsCardsStorageSystem is a **Java-based web application** designed to help yo
 - **Spring Data JPA**: ORM framework for interacting with the database.
 - **PostgreSQL**: Relational database for storing card details and transactions.
 - **Maven**: Dependency management and build tool.
-- **Selenium**: Scanning marketplace to avoid missing out on cards on sale *(Still working on it)*
+- **Selenium**: Scanning marketplace(Yahoo Auction) for products with keyword to avoid missing out on cards on sale
 
 
